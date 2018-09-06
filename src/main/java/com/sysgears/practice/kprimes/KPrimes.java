@@ -1,4 +1,4 @@
-package com.sysgears.practice;
+package com.sysgears.practice.kprimes;
 
 /*
 A natural number is called k-prime if it has exactly k prime factors, counted with multiplicity.

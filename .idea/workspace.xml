@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53a854b3-5a3e-4266-b5da-e194624e0185" name="Default" comment="" />
+    <list default="true" id="53a854b3-5a3e-4266-b5da-e194624e0185" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/KPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sysgears/practice/KPrimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sysgears/practice/kprimes/KPrimesTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,10 +28,10 @@
         </entry>
       </file>
       <file leaf-file-name="KPrimes.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/KPrimes.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="61" />
+            <state relative-caret-position="375">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1994#2000#0" expanded="true" />
@@ -35,11 +40,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="KPrimesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/KPrimesTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/kprimes/KPrimesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#199#200#0" expanded="true" />
@@ -59,6 +69,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
       <map>
@@ -76,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sysgears/practice/KPrimesTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysgears/practice/KPrimes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java" />
       </list>
     </option>
   </component>
@@ -92,6 +106,7 @@
     <option name="width" value="1803" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -130,7 +145,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="kprimes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -151,7 +166,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="kprimes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,6 +187,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.sysgears.practice" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sysgears.practice.kprimes" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -190,12 +208,12 @@
   </component>
   <component name="RunManager" selected="JUnit.KPrimesTest.test1">
     <configuration name="KPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.KPrimes" />
+      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.kprimes.KPrimes" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sysgears.practice.*" />
+          <option name="PATTERN" value="com.sysgears.practice.kprimes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,14 +225,14 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sysgears.practice.*" />
+          <option name="PATTERN" value="com.sysgears.practice.kprimes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sysgears.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.KPrimesTest" />
+      <option name="PACKAGE_NAME" value="com.sysgears.practice.kprimes" />
+      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.kprimes.KPrimesTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -230,14 +248,14 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sysgears.practice.*" />
+          <option name="PATTERN" value="com.sysgears.practice.kprimes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sysgears.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.KPrimesTest" />
+      <option name="PACKAGE_NAME" value="com.sysgears.practice.kprimes" />
+      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.kprimes.KPrimesTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -253,14 +271,14 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sysgears.practice.*" />
+          <option name="PATTERN" value="com.sysgears.practice.kprimes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sysgears.practice" />
-      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.KPrimesTest" />
+      <option name="PACKAGE_NAME" value="com.sysgears.practice.kprimes" />
+      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.kprimes.KPrimesTest" />
       <option name="METHOD_NAME" value="testPrimeDecompOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -369,8 +387,8 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
@@ -417,10 +435,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/KPrimesTest.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-oracle/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="175">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/kprimes/KPrimesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
@@ -429,17 +454,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/8.0.181-oracle/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/KPrimes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="61" />
+        <state relative-caret-position="375">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1994#2000#0" expanded="true" />

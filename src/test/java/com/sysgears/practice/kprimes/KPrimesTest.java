@@ -1,7 +1,9 @@
-package com.sysgears.practice;
+package com.sysgears.practice.kprimes;
 
 import static org.junit.Assert.*;
 import java.util.Arrays;
+
+import com.sysgears.practice.kprimes.KPrimes;
 import org.junit.Test;
 
 public class KPrimesTest {
