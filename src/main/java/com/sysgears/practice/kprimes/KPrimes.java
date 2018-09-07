@@ -113,7 +113,7 @@ public class KPrimes {
      * @param n an long greater than 0
      * @return true if the number is prime
      */
-    private static boolean isPrime(long n) {
+    public static boolean isPrime(long n) {
         if (n < 2) return false;
         long count = 0;
         for (long i = 1; i < (long) (Math.sqrt(n)) + 1; i++) {
