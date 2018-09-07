@@ -40,7 +40,7 @@ public class PrimeDecomp {
         if (isPrime(n)) result.put(n, 1);
 
         while (n != 1 && i <= Math.sqrt(n) + 1) {
-            if (isPrime(i))
+
                 while (n % i == 0) {
                     n /= i;
                     if (result.containsKey(i)) result.put(i, result.get(i) + 1);

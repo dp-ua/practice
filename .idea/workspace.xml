@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53a854b3-5a3e-4266-b5da-e194624e0185" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/PrimeDecomp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sysgears/practice/kprimes/PrimeDecompTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Dec2Fact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sysgears/practice/numbers/Dec2FactTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/PrimeDecomp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/PrimeDecomp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,33 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Dec2Fact.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Dec2Fact.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KPrimes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="122" selection-start-line="122" selection-end-line="122" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3129#3135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrimeDecomp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/PrimeDecomp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="184">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,21 +30,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeDecompTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/kprimes/PrimeDecompTest.java">
+      <file leaf-file-name="Dec2FactTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/numbers/Dec2FactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -105,6 +80,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/sysgears/practice/kprimes/PrimeDecompTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/KPrimes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/PrimeDecomp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Factorial.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sysgears/practice/numbers/Dec2FactTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Dec2Fact.java" />
       </list>
     </option>
   </component>
@@ -166,7 +144,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kprimes" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="numbers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -180,14 +167,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kprimes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.sysgears.practice.numbers" />
       <recent name="com.sysgears.practice.kprimes" />
       <recent name="com.sysgears.practice" />
     </key>
@@ -227,14 +207,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimeDecomp">
-    <configuration name="PrimeConsec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.kprimes.PrimeConsec" />
+  <component name="RunManager" selected="Application.Dec2Fact">
+    <configuration name="Dec2Fact" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.numbers.Dec2Fact" />
       <module name="practice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sysgears.practice.kprimes.*" />
+          <option name="PATTERN" value="com.sysgears.practice.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,20 +233,20 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="PrimeConsecTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Dec2FactTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sysgears.practice.kprimes.*" />
+          <option name="PATTERN" value="com.sysgears.practice.numbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sysgears.practice.kprimes" />
-      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.kprimes.PrimeConsecTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.sysgears.practice.numbers" />
+      <option name="MAIN_CLASS_NAME" value="com.sysgears.practice.numbers.Dec2FactTest" />
+      <option name="METHOD_NAME" value="test11" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -361,19 +341,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PrimeConsec" />
-      <item itemvalue="JUnit.PrimeConsecTest" />
       <item itemvalue="JUnit.PrimeConsecTest.test" />
       <item itemvalue="JUnit.PrimeDecompTest.testPrimeDecompOne" />
       <item itemvalue="Application.PrimeDecomp" />
+      <item itemvalue="Application.Dec2Fact" />
+      <item itemvalue="JUnit.Dec2FactTest.test11" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dec2Fact" />
+        <item itemvalue="JUnit.Dec2FactTest.test11" />
         <item itemvalue="Application.PrimeDecomp" />
         <item itemvalue="JUnit.PrimeDecompTest.testPrimeDecompOne" />
         <item itemvalue="JUnit.PrimeConsecTest.test" />
-        <item itemvalue="Application.PrimeConsec" />
-        <item itemvalue="JUnit.PrimeConsecTest" />
       </list>
     </recent_temporary>
   </component>
@@ -391,15 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrimeDecompTest_testPrimeDecompOne - 2018.09.07 at 10h 58m 02s.xml">
-      <configuration name="PrimeDecompTest.testPrimeDecompOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeDecompTest_testPrimeDecompOne - 2018.09.07 at 11h 06m 55s.xml">
-      <configuration name="PrimeDecompTest.testPrimeDecompOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PrimeDecompTest_testPrimeDecompOne - 2018.09.07 at 11h 08m 24s.xml">
-      <configuration name="PrimeDecompTest.testPrimeDecompOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PrimeDecompTest_testPrimeDecompOne - 2018.09.07 at 11h 10m 36s.xml">
       <configuration name="PrimeDecompTest.testPrimeDecompOne" configurationId="JUnit" />
     </history-entry>
@@ -421,6 +392,15 @@
     <history-entry file="PrimeDecompTest_testPrimeDecompOne - 2018.09.07 at 11h 26m 41s.xml">
       <configuration name="PrimeDecompTest.testPrimeDecompOne" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Dec2FactTest_test11 - 2018.09.07 at 16h 25m 17s.xml">
+      <configuration name="Dec2FactTest.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Dec2FactTest_test11 - 2018.09.07 at 16h 26m 19s.xml">
+      <configuration name="Dec2FactTest.test11" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Dec2FactTest_test11 - 2018.09.07 at 16h 34m 51s.xml">
+      <configuration name="Dec2FactTest.test11" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -434,7 +414,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -444,7 +424,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,17 +439,71 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="28" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Dec2Fact.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="list.get(((ArrayList) list).size-1)" language="JAVA" custom="java.util.ArrayList" />
-        <watch expression="n % i" />
+        <watch expression="l&gt;9?String.valueOf('A'+l-10):l" />
+        <watch expression="Character.toString('A'+0)" language="JAVA" />
+        <watch expression="Character.toString((char) ('A'+l-10))" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>Character.toString('A'+0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Character.toString()'A'+0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>'A'+0</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Character.forDigit((int) (65),10)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(((char)55)+10)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(((char)55)+l)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Integer.valueOf('0')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapKeys.get('L')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mapKeys.get('1')</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>list.get(((ArrayList) list).size-1)</expression-string>
         <language-id>JAVA</language-id>
@@ -595,8 +629,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/kprimes/PrimeDecomp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="270">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sysgears/practice/numbers/Dec2FactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysgears/practice/numbers/Dec2Fact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
